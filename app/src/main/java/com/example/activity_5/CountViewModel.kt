@@ -2,7 +2,8 @@ package com.example.activity_5
 
 import androidx.lifecycle.ViewModel
 
-class CountViewModel : ViewModel() {
+class CountViewModel : ViewModel()
+{
     var countLike: Int = 0
     var countDislike: Int = 0
 }
